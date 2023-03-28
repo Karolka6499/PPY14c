@@ -50,9 +50,6 @@ def play_round(player1_name, player2_name=None):
 
     player1_choice = get_player_choice(player1_name)
 
-    #print(f"{player1_name} wybrał {player1_choice}")
-    #print(f"{player2_name} wybrał {player2_choice}")
-
     if player1_choice == player2_choice:
         print("Remis!")
         return 0
